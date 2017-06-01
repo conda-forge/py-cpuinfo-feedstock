@@ -12,7 +12,11 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
+  script_env:
+    - PROCESSOR_ARCHITEW6432
+    - PROCESSOR_ARCHITECTURE
+    - PROCESSOR_IDENTIFIER
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - cpuinfo = cpuinfo:main
