@@ -1,6 +1,6 @@
 {% set name = "py-cpuinfo" %}
-{% set version = "0.2.3" %}
-{% set sha256 = "f6a016fdbc4e7fadf2d519090fcb4fa9d0831bad4e85245d938e5c2fe7623ca6" %}
+{% set version = "3.2.0" %}
+{% set sha256 = "dc48cb481f9c680328e796fad1e296b2eed7d7f20cd0e3323ddec2f1e86c4f8a" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,11 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
+  script_env:
+    - PROCESSOR_ARCHITEW6432
+    - PROCESSOR_ARCHITECTURE
+    - PROCESSOR_IDENTIFIER
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - cpuinfo = cpuinfo:main
