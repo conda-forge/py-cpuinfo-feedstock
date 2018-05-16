@@ -14,11 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script_env:
-    - PROCESSOR_ARCHITEW6432
-    - PROCESSOR_ARCHITECTURE
-    - PROCESSOR_IDENTIFIER
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - cpuinfo = cpuinfo:main
 
@@ -26,6 +22,7 @@ requirements:
   build:
     - python
     - setuptools
+    - pip
   run:
     - python
 
