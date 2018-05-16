@@ -14,14 +14,15 @@ Summary: A module for getting CPU info with Python 2 & 3
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/py-cpuinfo-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/py-cpuinfo-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/py-cpuinfo-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/py-cpuinfo-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/py-cpuinfo-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/py-cpuinfo-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/py-cpuinfo-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/py-cpuinfo-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py-cpuinfo/badges/version.svg)](https://anaconda.org/conda-forge/py-cpuinfo)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/py-cpuinfo/badges/downloads.svg)](https://anaconda.org/conda-forge/py-cpuinfo)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-py--cpuinfo-green.svg)](https://anaconda.org/conda-forge/py-cpuinfo) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/py-cpuinfo.svg)](https://anaconda.org/conda-forge/py-cpuinfo) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/py-cpuinfo.svg)](https://anaconda.org/conda-forge/py-cpuinfo) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/py-cpuinfo.svg)](https://anaconda.org/conda-forge/py-cpuinfo) |
 
 Installing py-cpuinfo
 =====================
