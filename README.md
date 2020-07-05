@@ -5,7 +5,7 @@ Home: https://github.com/workhorsy/py-cpuinfo
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A module for getting CPU info with Python 2 & 3
 
