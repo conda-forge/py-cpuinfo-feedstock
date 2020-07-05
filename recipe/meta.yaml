@@ -1,6 +1,6 @@
 {% set name = "py-cpuinfo" %}
-{% set version = "6.0.0" %}
-{% set sha256 = "7ffb31dea845b9f359b99bd5f7eea72dc70f852e0e34547d261a630f2b8c9c61" %}
+{% set version = "7.0.0" %}
+{% set sha256 = "9aa2e49675114959697d25cf57fec41c29b55887bff3bc4809b44ac6f5730097" %}
 
 package:
   name: {{ name|lower }}
