@@ -1,6 +1,6 @@
 {% set name = "py-cpuinfo" %}
-{% set version = "7.0.0" %}
-{% set sha256 = "9aa2e49675114959697d25cf57fec41c29b55887bff3bc4809b44ac6f5730097" %}
+{% set version = "8.0.0" %}
+{% set sha256 = "5f269be0e08e33fd959de96b34cd4aeeeacac014dd8305f70eb28d06de2345c5" %}
 
 package:
   name: {{ name|lower }}
@@ -19,12 +19,12 @@ build:
     - cpuinfo = cpuinfo:main
 
 requirements:
-  build:
-    - python
+  host:
+    - python >=2.7
     - setuptools
     - pip
   run:
-    - python
+    - python >=2.7
 
 test:
   imports:
